@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MainNav from './MainNav.jsx';
+import MainNav from './MainNav/MainNav.jsx';
 import Molly from './Molly.jsx';
 
 export default class Layout extends Component {
