@@ -4,9 +4,11 @@ import React, { Component } from 'react';
 export default class MainNav extends Component {
   render() {
       return (
-        <div className="row-fluid">
           <nav className="navbar navbar-default">
-             <a className="navbar-brand" href="#">Exa</a> 
+            <div className="container-fluid">
+             <a className="navbar-brand" href="#">
+               <i className="fa fa-joomla fa-3"></i> 
+            </a> 
 
               <ul className="nav navbar-nav">
                   <li><a href="/">Save</a></li>
@@ -19,9 +21,8 @@ export default class MainNav extends Component {
                   <li><a href="/">Model</a></li>
                   <li><a href="/">Help</a></li>
               </ul>
-
+            </div>
           </nav>
-        </div>
       );
   }
 };

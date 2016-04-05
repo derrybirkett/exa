@@ -1,0 +1,46 @@
+import React, { Component } from 'react';
+import MainNav from './MainNav/MainNav.jsx';
+import MolViewer from './MolViewer/MolViewer.jsx';
+import Properties from './Properties/Properties.jsx';
+import Supercell from './Supercell/Supercell.jsx';
+
+export default class Layout extends Component {
+  render() {
+    return(
+      <div className="fluid">
+        <MainNav />
+
+        <div className="row-fluid">
+
+          <div className="col-md-1">
+            <ul className="list-group">
+              <li className="list-group-item">
+                <i className="fa fa-heartbeat"></i>
+              </li>
+            </ul>
+          </div>
+
+          <div className="col-md-6">
+            <MolViewer name="MolViewer" />
+          </div>
+
+          <div className="col-md-5">
+            <div className="row-fluid">
+              <div className="col-md-12">
+                  <Supercell />
+              </div>
+            </div>
+
+            <div className="row-fluid">
+              <div className="col-md-12">
+                    <Properties />
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    )
+  }
+};

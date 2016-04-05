@@ -1,9 +1,31 @@
- #glmol01 {width: 100%; height: 100%; background-color: black; position: absolute;}
-   .settings {position: absolute; right: 0px; top: 10%; 
-      background-color: grey;
-      -moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg);
-      margin:0px; padding:10px;
-      -moz-transform-origin: 110% 100%; -webkit-transform-origin: 110% 100%;
-      -webkit-border-radius: 10px 10px 0px 0px; -moz-border-radius: 10px 10px 0px 0px;}
-   .controller {position: absolute; width: 0px; right: 0px; top: 10%; 
-      background-color: rgba(0, 0, 0, 0.65); color: white;}
+body, html {
+  background-color:#333;
+  height:100%;
+}
+
+.fluid, .render-target {
+  height:100%;
+}
+
+.navbar {
+  border:none;
+  margin-bottom:0px;
+  border-radius:0px;
+  background-color:#C8CBD2;
+}
+
+.navbar-brand {
+  background-color:ghostwhite;
+}
+
+.flex-container {
+  display:flex;
+  height:100%; /*600px*/
+}
+
+.flex-child {
+  width: 50%;
+  height:100%;
+  background-color: #2E3444;
+  border-right: 1px solid #2c2c2c;
+}
