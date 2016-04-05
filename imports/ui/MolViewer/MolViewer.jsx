@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
  
-export default class Molly extends Component {
+export default class MolViewer extends Component {
 
   render() {
 
@@ -19,7 +19,7 @@ export default class Molly extends Component {
  
 }
  
-Molly.propTypes = {
+MolViewer.propTypes = {
   // This component gets the task to display through a React prop.
   // We can use propTypes to indicate it is required
   //mol: PropTypes.object.isRequired,
