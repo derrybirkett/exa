@@ -5,7 +5,7 @@ var glmol02 = new GLmol('glmol02');
 
 // Proteins can also be embedded in the page but 
 //  you might want to keep it separate.
-
+/*
 var glmol01 = new GLmol('glmol01', true);
 glmol01.defineRepresentation = function() {
    var all = this.getAllAtoms();
@@ -27,3 +27,4 @@ $.get("2DHB.pdb", function(ret) {
 $("#glmol01_src").val(ret);
 glmol01.loadMolecule();
 });
+*/
