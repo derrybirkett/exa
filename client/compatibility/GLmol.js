@@ -1553,6 +1553,7 @@ GLmol.prototype.rebuildScene = function() {
 };
 
 GLmol.prototype.loadMolecule = function(repressZoom) {
+  console.log("ref"+$('#' + this.id + '_src').val());
    this.loadMoleculeStr(repressZoom, $('#' + this.id + '_src').val());
 };
 

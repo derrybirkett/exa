@@ -14,19 +14,17 @@ import Glmol from './MolViewer/glmol.jsx';
 export default class Layout extends Component {
   render() {
 
-
     return(
       <div className="fluid">
         <MainNav />
 
         <div className="flex-container">
           <div className="flex-child">
-
-            <GlMol />
-
+            <Glmol  />
           </div>
+
           <div className="flex-child">
-           <TextEditor /> 
+            <TextEditor mol="1CRY" /> 
           </div>
         </div>
 

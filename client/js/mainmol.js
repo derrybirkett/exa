@@ -1,7 +1,7 @@
 
 // Small molecules can be embedded in the page
 
-var glmol02 = new GLmol('glmol02');
+//var glmol02 = new GLmol('glmol02');
 
 // Proteins can also be embedded in the page but 
 //  you might want to keep it separate.
